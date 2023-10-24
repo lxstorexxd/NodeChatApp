@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat App</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <a href="/" class="header_logo">
+                <div class="header_logo__img">
+                    <img src="/images/logotype.png" alt="logo">
+                </div>
+                <div class="header_logo__text">ChatApp</div>
+            </a>
+        </header>
+
+        <section class="home-section">
+            <div class="home-section__wrapper">
+                <div class="text_wrapper">
+                    <h1>ВКонтакте для мобильных устройств</h1>
+                    <p>Установите официальное мобильное приложение ВКонтакте и оставайтесь в курсе новостей ваших
+                        друзей, где бы вы ни находились.</p>
+                </div>
+                <div class="form_wrapper">
+                    <div class="form_block">
+                        <form method="post" action="/login">
+                            <div class="form_head">
+                                <div class="form_head__img">
+                                    <img src="/images/logotype.png" alt="logo">
+                                </div>
+                                <h1 class="form_head__text">Вход в ChatApp</h1>
+                            </div>
+                            <div class="form_fields">
+                                <input type="text" class="default-input" name="username" required>
+                                <input type="password" class="default-input" name="password" required>
+                            </div>
+                            <div>
+                                <button type="submit" class="default-btn">Войти</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form_block">
+                        <p>У вас до сих пор нет аккаунта?</p>
+                        <button class="default-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer_head">
+                <a href="/" class="footer_logo">
+                    <div class="footer_logo__img">
+                        <img src="/images/logotype.png" alt="logo">
+                    </div>
+                    <div class="footer_logo__text">ChatApp</div>
+                </a>
+                <div class="footer_list">
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Языки</a></li>
+                        <li><a href="#">Разработчикам</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <span>Copyright © 2023</span>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
